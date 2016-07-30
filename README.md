@@ -1,3 +1,3 @@
 # robvisor
+Robot Advisor, Automated Online Investing Services
 
-a [Sails](http://sailsjs.org) application
