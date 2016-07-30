@@ -2,7 +2,7 @@
   "name": "robvisor",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "Robot Advisor, Automated Online Investing Services",
   "keywords": [],
   "dependencies": {
     "ejs": "2.3.4",
@@ -21,7 +21,10 @@
     "include-all": "~0.1.6",
     "rc": "1.0.1",
     "sails": "~0.12.3",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "sails-hook-autoreload": "0.13.2",
+    "sails-mysql": "^0.11.5",
+    "vue-strap": "^1.0.11"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -30,8 +33,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/alfred/robvisor.git"
+    "url": "git://github.com/meiquant/robvisor.git"
   },
-  "author": "alfred",
+  "author": "MeiQuant",
   "license": ""
 }
